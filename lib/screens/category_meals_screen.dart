@@ -40,6 +40,7 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
     super.didChangeDependencies();
   }
 
+  // ignore: unused_element
   void _removeMeal(String mealId) {
     setState(() {
       displayedMeals.removeWhere((meal) => meal.id == mealId);
